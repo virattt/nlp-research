@@ -1,0 +1,189 @@
+GPT2(
+  (transformer_blocks): ModuleList(
+    (0): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (1): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (2): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (3): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (4): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (5): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (6): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (7): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (8): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (9): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (10): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (11): TransformerBlock(
+      (attn): Attention(
+        (c_attn): Conv1D()
+        (softmax): Softmax(dim=-1)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (c_proj): Conv1D()
+      )
+      (feedforward): FeedForward(
+        (c_fc): Conv1D()
+        (c_proj): Conv1D()
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+  )
+  (word_token_embeddings): Embedding(50527, 768)
+  (word_position_embeddings): Embedding(1024, 768)
+  (dropout): Dropout(p=0.1, inplace=False)
+  (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (out): Linear(in_features=768, out_features=50527, bias=False)
+)
